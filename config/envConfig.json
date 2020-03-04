@@ -1,0 +1,25 @@
+{
+    "local": {
+        "port": 4019,
+        "domain": "localhost:3000",
+        "resetpasswordurl": "http://localhost:3000/guest/ResetPassword?reset_token=",
+        "mysqlConnection": {
+            "host": "anujrds.cswlmpegbvzy.ap-south-1.rds.amazonaws.com",
+            "user": "adminanuj",
+            "password": "mypassword",
+            "database": "schooldb"
+        },
+        "emailDetails" :{
+            "USER": "anujvermaatc1994@gmail.com", 
+            "PASS": "8052131357",
+            "RECIEVER":"averma@alopasoft.com"
+        },
+        "logFilePath": "/logs/all-logs.log",
+        "exceptionLogFilePath": "/logs/exceptions.log",
+        "encryption": {
+            "privatekey": "169SaUXluzNsutiAGFd3k8gnlQ7ZK53D"
+        },
+        "sessionSecretForMobile": "sQO5Q50qG9",
+        "sessionSecret": "ATSgqLh9gU6Zpse83I8ZDQIRUJblJtZNbM"
+    }
+}

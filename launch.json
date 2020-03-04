@@ -1,0 +1,20 @@
+{
+    "version":"1.0.0",
+    "configurations":[
+        {
+            "name":"Launch",
+            "type":"node",
+            "request":"launch",
+            "program":"${workspaceRoot}/index.js",
+            "stopOnEntry":false,
+            "args":[],
+            "cwd":"${workspaceRoot}",
+            "env":{
+                "NODE_ENV":"local"
+            },
+            "externalConsole":false,
+            "sourceMaps":false,
+            "outDir":null
+        }
+    ]
+}

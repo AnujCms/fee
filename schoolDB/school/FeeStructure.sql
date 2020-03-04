@@ -1,0 +1,18 @@
+CREATE TABLE `schooldb`.`feestructure` (
+  `feestructureid` INT NOT NULL AUTO_INCREMENT,
+  `accountid` INT NOT NULL,
+  `class` INT NOT NULL,
+  `session` INT NOT NULL,
+  `january` VARCHAR(45) NULL,
+  `february` INT NULL,
+  `march` INT NULL,
+  `april` INT NULL,
+  `may` INT NULL,
+  `june` INT NULL,
+  `july` INT NULL,
+  `august` INT NULL,
+  `september` INT NULL,
+  `october` INT NULL,
+  `november` INT NULL,
+  `december` INT NULL,
+  PRIMARY KEY (`feestructureid`));

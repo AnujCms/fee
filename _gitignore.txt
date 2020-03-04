@@ -1,0 +1,11 @@
+node_modules
+*.bat
+obj
+*.csv
+schoolDB/dexcom
+public/img/remove-icon-png.png
+*.docx
+schoolDB/mysql-migration/funtions.sql
+schoolDB/db-backup*
+schoolDB/db-bckup*
+*.xlsx

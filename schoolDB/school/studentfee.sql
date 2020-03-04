@@ -1,0 +1,16 @@
+CREATE TABLE `schooldb`.`studentfee` (
+  `studentfeeid` INT NOT NULL AUTO_INCREMENT,
+  `adharnumber` VARCHAR(45) NOT NULL,
+  `januaryfee` INT NULL,
+  `februaryfee` INT NULL,
+  `marchfee` INT NULL,
+  `aprilfee` INT NULL,
+  `mayfee` INT NULL,
+  `junefee` INT NULL,
+  `julyfee` INT NULL,
+  `augustfee` INT NULL,
+  `septemberfee` INT NULL,
+  `octoberfee` INT NULL,
+  `novemberfee` INT NULL,
+  `decemberfee` INT NULL,
+  PRIMARY KEY (`studentfeeid`));
