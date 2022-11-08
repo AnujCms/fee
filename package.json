@@ -65,6 +65,6 @@
     "mocha": "^3.0.2",
     "should": "^11.1.0",
     "supertest": "^2.0.0",
-    "webpack": "^2.5.1"
+    "webpack": "^5.74.0"
   }
 }
